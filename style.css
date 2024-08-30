@@ -1,0 +1,320 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+    .intro{
+    padding-top: 100px;
+    text-align: center;
+    }
+   .escuderia{
+     padding-top: 100px;
+     text-align: center;
+     background-color: #cecece;
+    }
+    .conhecendo{
+      padding-top: 100px;
+     text-align: center;
+    }
+    .conhecendo_escuderia{
+      padding-top: 100px;
+      text-align: center;
+      background-color: #333;
+    }
+    .loja_escuderia{
+      padding-top: 100px;
+      text-align: center;
+    }
+    .contato_escuderia{
+      padding-top: 100px;
+      text-align: center;
+    }
+    footer{
+      padding-top: 50px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0; /* Remove a margem padrão do body */
+      padding: 0; /* Remove o padding padrão do body */
+    }
+    
+    /* Estilo do Header */
+    .header-back {
+      position: relative; /* Normaliza o comportamento de rolagem */
+      width: 100%; /* Faz o header ocupar toda a largura da página */
+      background-color: rgba(51, 51, 51, 0.7); /* Cinza escuro com 70% de opacidade */
+      height: 70px; /* Altura do header */
+      padding: 0 60px; /* Padding lateral */
+      top: 0; /* Fica no topo da página */
+      left: 0;
+      z-index: 10; /* Garante que o header fique acima da div da introdução */
+      display: flex;
+      align-items: center; /* Alinha os itens verticalmente no centro */
+    }
+    
+    .header-front {
+      background-color: transparent; /* Torna o fundo transparente */
+      color: #fff;
+      padding: 0; /* Remove o padding */
+      display: flex;
+      justify-content: space-between;
+      width: 100%; /* Faz o header front ocupar toda a largura do header-back */
+    }
+    
+    .logo {
+      padding-top: 10px;
+    }
+    
+    .logo img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    
+    .header-right {
+      list-style: none;
+      margin: 0;
+      padding-top: 16px;
+      font-size: 20px;
+      display: flex;
+      gap: 20px;
+    }
+    
+    .header-right a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .header-right a:hover {
+      color: #ccc;
+    }
+    
+    .header-left {
+      display: flex;
+      align-items: center; /* Alinha verticalmente com o logo */
+      font-size: 16px;
+    }
+    
+    .team-name {
+      padding-left: 5px;
+    }
+    
+    /* Seção de Introdução */
+    .intro {
+      background-image: url('img/carro foto.jpeg');
+      background-size: cover; /* Mantém a proporção da imagem e cobre a div */
+      background-position: center center; /* Centraliza a imagem */
+      background-repeat: no-repeat; /* Evita a repetição da imagem */
+      background-attachment: fixed; /* Para o efeito de paralaxe */
+      height: 100vh;
+      width: 100%;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 70px; /* Adiciona padding no topo para que o conteúdo não fique escondido atrás do header */
+    }
+    
+    .intro h1 {
+      font-size: 36px;
+    }
+    
+    
+      
+
+/* Seção de Apresentação da Equipe */
+
+.team-line1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.team-line2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.team-line3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.member-1 {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* sombreamento rosa */
+}
+
+.member-1 img {
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+}
+.member-2 {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* sombreamento rosa */
+}
+
+.member-2 img {
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+}
+.member-3 {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* sombreamento rosa */
+}
+
+.member-3 img {
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+}
+.member-4 {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* sombreamento rosa */
+}
+
+.member-4 img {
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+}
+.member-5 {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* sombreamento rosa */
+}
+
+.member-5 img {
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+}
+.member-6 {
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* sombreamento rosa */
+}
+
+.member-6 img {
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+}
+
+
+
+/* Sobre F1 in Schools */
+
+#f1-in-schools {
+  background-color: #f7f7f7;
+  padding: 1em;
+  width: 100%;
+  p{width: 60%;
+  margin: 0 auto;
+padding-top: 25px;}
+}
+
+/* Quem Somos e o Que Fazemos */
+
+#quem-somos{
+  background-color: #f7f7f7;
+  padding: 1em;
+  width: 100%;
+}
+
+/* Produtos em Destaque */
+
+
+
+/* Produtos em Destaque */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.product {
+  min-width: 300px;
+  box-sizing: border-box;
+  margin: 0 10px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px; /* Borda arredondada para os produtos */
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* Sombra semelhante à dos membros */
+  overflow: hidden; /* Garante que a borda arredondada se aplique às imagens */
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Ajusta a imagem para cobrir a área */
+}
+
+.product h3, .product p {
+  margin: 10px;
+}
+
+.product a.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.product a.buy-button:hover {
+  background-color: #0056b3;
+}
+
+.carousel-prev, .carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10; /* Garantir que os botões estejam acima dos outros elementos */
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
